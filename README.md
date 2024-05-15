@@ -2,6 +2,29 @@
 
 该库的内容来自[npmjs](https://www.npmjs.com/package/formvalidation)
 
+```bash
+npm i formvalidation
+```
+
+
+经过简单的修改，它可以在bootstrap5上工作
+
+
+您只需要`git clone https://github.com/ajiho/formvalidation.git `复制`dist`目录即可
+
+
+也可以使用cdn
+
+```
+https://cdn.jsdelivr.net/gh/ajiho/formvalidation@main/dist/css/formValidation.css
+
+https://cdn.jsdelivr.net/gh/ajiho/formvalidation@main/dist/js/framework/bootstrap.js
+https://cdn.jsdelivr.net/gh/ajiho/formvalidation@main/dist/js/formValidation.js
+```
+
+
+# 关于该包
+
 首先，这个表单验证插件非常优秀，很好用，这个包究竟是不是收费的？
 
 我在网上收集了很多资料,并整理了该包的发展史
@@ -36,16 +59,13 @@ UIKit
 
 # 有用的链接
 
-
 - https://stackoverflow.com/questions/73260629
 - [旧的可用的官方文档](https://old.formvalidation.io/examples/bootstrap-tab/)
 
 
 
 
-# 更新
 
-经过简单的修改，它可以在bootstrap5上工作,您只需要复制`dist`目录即可
 
 
 
