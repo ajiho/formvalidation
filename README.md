@@ -1,97 +1,56 @@
-# FormValidation - [Download](http://formvalidation.io/download/)
+# formvalidation
 
-| Quick links                                                                      |
-|----------------------------------------------------------------------------------|
-| [Document](http://formvalidation.io)                                             |
-| [Examples](http://formvalidation.io/examples/)                                   |
-| [Report issues, Ask questions](https://github.com/formvalidation/support/issues) |
+该库的内容来自[npmjs](https://www.npmjs.com/package/formvalidation)
 
-[http://formvalidation.io](http://formvalidation.io) - The best [jQuery](http://jquery.com/) plugin to validate form fields, designed to use with:
+首先，这个表单验证插件非常优秀，很好用，这个包究竟是不是收费的？
 
-- [x] [Bootstrap](http://getbootstrap.com/)
-- [x] [Foundation](http://foundation.zurb.com/)
-- [x] [Pure](http://purecss.io/)
-- [x] [Semantic UI](http://semantic-ui.com/)
-- [x] [UIKit](http://getuikit.com/)
+我在网上收集了很多资料,并整理了该包的发展史
 
-It's developed from scratch by [@nghuuphuoc](http://twitter.com/nghuuphuoc).
 
-__Required__: [jQuery 1.9.1+](http://jquery.com/)
+该包最开始的地址应该是这个
 
-Screenshots first because we love it!
+https://github.com/stevenmills/bootstrapvalidator
 
-__Validating Bootstrap form__
+v0.1.0
 
-![Screenshot](screenshots/bootstrap.gif)
+然后转移到这个仓库
 
-__Validating Foundation form__
+https://github.com/nghuuphuoc/bootstrapvalidator
 
-![Screenshot](screenshots/foundation.gif)
 
-__Validating Pure form__
+然后更新到 v0.5.3
 
-![Screenshot](screenshots/pure.gif)
+然后就不再免费开源了
 
-__Validating Semantic UI form__
+从 v0.6.0 开始，插件名称更改为FormValidation,并且不再只支持bootstrap一个库
 
-![Screenshot](screenshots/semantic.gif)
 
-__Validating UI Kit form__
+还包括很多其它的库比如下面的
 
-![Screenshot](screenshots/uikit.gif)
+Foundation
+Pure
+Semantic UI
+UIKit
 
-## Live demo
 
-http://formvalidation.io/examples/
 
-There are also many examples located in the [demo](demo) directory.
+# 有用的链接
 
-You also can run the ```demo``` locally by:
 
-* Clone the repo: 
+- https://stackoverflow.com/questions/73260629
+- [旧的可用的官方文档](https://old.formvalidation.io/examples/bootstrap-tab/)
 
-```
-git clone https://github.com/formvalidation/formvalidation.git
-```
 
-* Go to the cloned directory and run the command: 
 
-```
-python -m SimpleHTTPServer 8000
-```
 
-* Access the demo at 
+# 更新
 
-```
-http://localhost:8000/demo/the_demo_file_here.html
-```
+经过简单的修改，它可以在bootstrap5上工作,您只需要复制`dist`目录即可
 
-## Features
 
-See the [official website](http://formvalidation.io) for the full list of features
 
-## Download
 
-* Latest version: http://formvalidation.io/download/
-* Release History: Look at the [Change Log](CHANGELOG.md)
 
-## Documentation
 
-* [Official website](http://formvalidation.io)
 
-## Author
 
-The __FormValidation__ plugin is written by Nguyen Huu Phuoc, aka @nghuuphuoc
-
-* [http://twitter.com/nghuuphuoc](http://twitter.com/nghuuphuoc)
-* [http://github.com/nghuuphuoc](http://github.com/nghuuphuoc)
-
-## Contribution
-
-Contributions are welcome!
-
-Please notice that **your code** may be used as part of a **commercial product** if the pull request is **merged**.
-
-## License
-
-For more information about the license, see http://formvalidation.io/license/

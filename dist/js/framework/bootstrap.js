@@ -21,7 +21,8 @@
             },
             err: {
                 // http://getbootstrap.com/css/#forms-help-text
-                clazz: 'help-block',
+                // clazz: 'help-block',
+                clazz: 'invalid-feedback',
                 parent: '^(.*)col-(xs|sm|md|lg)-(offset-){0,1}[0-9]+(.*)$'
             },
             // This feature requires Bootstrap v3.1.0 or later (http://getbootstrap.com/css/#forms-control-validation).
@@ -231,14 +232,7 @@
         }
     });
 
-    /**
-     * Plugin definition
-     * Support backward
-     * @deprecated It will be removed soon. Instead of using $(form).bootstrapValidator(), use
-     *  $(form).formValidation({
-     *      framework: 'bootstrap'  // It's equivalent to use data-fv-framework="bootstrap" for <form>
-     *  });
-     */
+
     $.fn.bootstrapValidator = function(option) {
         var params = arguments;
         return this.each(function() {
